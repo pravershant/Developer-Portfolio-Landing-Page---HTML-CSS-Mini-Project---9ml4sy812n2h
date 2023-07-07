@@ -1,1 +1,70 @@
+.Main{
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg");
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;  
+    justify-content: center;
+}
+.css{
+    margin-top: 100px;
+    text-align: center;
+}
+.second{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+}
+.chart{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    
+}
+.chart1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: white solid 2px;
+    border-radius: 10px;
+}
+.lorem{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    color: white;
 
+}
+.me{
+    background-color: orange;
+    color: black;
+    width: 400px;
+    height: 150px;
+    border: solid 2px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+@media only screen and (max-width:600px){
+    .Main{
+      width: 500px !important;
+    }
+  .second{
+      width: 500px;
+      padding: 10px;
+  }
+  .chart{
+      width: 500px;
+      padding: 10px;
+  }
+  .lorem{
+      width: 500px;
+      padding: 10px;
+      background-color: red;
+  }
+
+}
